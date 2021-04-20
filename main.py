@@ -6,7 +6,6 @@ import util
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-config-file', type=str, dest="configfile")
     parser.add_argument("-command", type=str)
     parser.add_argument("-filename", type=str, dest="filename")
     arguments = parser.parse_args()
