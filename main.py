@@ -27,4 +27,4 @@ if __name__ == '__main__':
     if current_command == "read":
         print(filemanager.readfile(util.create_abspath(filename, working_dir)))
     if current_command == "metadata":
-        print filemanager.metadata(util.create_abspath(filename, working_dir))
+        print(filemanager.metadata(util.create_abspath(filename, working_dir)))
